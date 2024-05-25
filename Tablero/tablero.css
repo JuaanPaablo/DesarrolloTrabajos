@@ -1,0 +1,22 @@
+.root{
+    --color: white;
+}
+
+.body{
+    margin: 0 auto;
+    width: 20%;
+    padding-top: 125px;
+}
+
+#button{
+    margin-top: 10px;
+}
+
+.Miclase{
+        color: black;
+        background-color: gray;
+        text-align: center;
+        padding: 5px; 
+        border-radius: 20px;
+        margin: 10px;
+}

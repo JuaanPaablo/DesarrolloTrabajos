@@ -1,0 +1,18 @@
+.header-body{
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(231, 246, 66);
+    width: 280px;
+    padding: 1px;
+    border-radius: 120px;
+}
+
+.formulario-body{
+    width: 20%;
+    margin: 0 auto;
+    color: white;
+}
+
+body{
+    background-color: rgb(84, 188, 24);
+}

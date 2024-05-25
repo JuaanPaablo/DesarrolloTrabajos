@@ -1,0 +1,40 @@
+.casilla-blanca {
+    background-color: white;
+  }
+  
+.casilla-negra {
+    background-color: black;
+    color: white;
+}
+  
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+}
+  
+.EstiloImagen {
+    width: 120px;
+    height: 180px;
+}
+  
+.posicion-valida {
+    background-color: #00FF00;
+}
+
+#boton-body{
+    margin: 5px;
+}
+
+.body{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #a6c10e;
+    justify-content: center;
+    align-items: center;
+}

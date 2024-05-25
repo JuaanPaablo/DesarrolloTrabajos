@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Temperatura</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <div class="header-body">
+    <header class="header-body">
+      <h2 class="h2-body">Conversor de Temperatura</h2>
+  </div>
+  </header>
+  <form class="formulario-body">
+    <div class="divLabel">
+      <label class="label-form" for="tempInput1">Temperatura 1:</label>
+    </div>
+    <div class="divinputNumber">
+      <input type="number" id="tempInput1" name="tempInput1" oninput="convertirTemperatura(1)" required>
+    </div>
+
+    <br><br>
+
+    <div class="select-body">
+      <select class="form-select form-select-sm" aria-label="Default select example" id="tempSelect1" name="tempSelect1"
+        onchange="convertirTemperatura(1)">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+    </div>
+
+    <br><br>
+
+    <div>
+      <label class="label-form" for="tempInput2">Temperatura 2:</label>
+    </div>
+    <div>
+      <input type="number" id="tempInput2" name="tempInput2" oninput="convertirTemperatura(2)" required>
+    </div>
+    <br><br>
+    <div class="select-body">
+      <select class="form-select form-select-sm" aria-label="Default select example" id="tempSelect2" name="tempSelect2"
+        onchange="convertirTemperatura(2)">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+    </div>
+    <br><br>
+
+    <div class="label-form">
+      <label for="resultado">Resultado:</label>
+    </div>
+    <div class="divinputText">
+      <input type="text" id="resultado" name="resultado" readonly>
+    </div>
+  </form>
+
+  <script src="funciones.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
